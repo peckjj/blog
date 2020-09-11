@@ -2,6 +2,6 @@ body {
     background-color: lightskyblue;
 }
 
-a.home-link {
+.home-link {
     href: "style.css";
 }
