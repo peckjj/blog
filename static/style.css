@@ -1,4 +1,8 @@
 body {
     background-color: lightskyblue;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+}
+
+main {
+    width: 100vh;
 }
