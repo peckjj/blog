@@ -12,6 +12,15 @@ main {
     color: white;
 }
 
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+}
+
 #menu {
     position: fixed;
     top: 0;
@@ -24,14 +33,10 @@ main {
     border: 1px solid black;
 }
 
-#menu > h1:hover {
+.menu-link:hover {
     color: white;
 }
 
-#menu > a {
-    color: none;
-}
-
-a {
-    color: yellow;
+.menu-link {
+    color: black;
 }
