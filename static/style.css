@@ -1,13 +1,14 @@
 body {
+    display: row;
     background-image: url("circuits.jpg");
     font-family: 'Roboto';
-    margin: 0;
     margin-left: 10px;
+    overflow: scroll;
 }
 
 main {
     width: 60vw;
-    position: fixed;
+    position: relative;
     top: 10vh;
     color: white;
 }
@@ -27,7 +28,7 @@ a {
     width: 100vw;
     background-color: orange;
     border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    z-index: 1;
 }
 
 .menu-link:hover {
