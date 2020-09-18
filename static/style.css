@@ -17,10 +17,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: yellow;
-}
-
 #menu {
     position: fixed;
     top: 0;
@@ -30,7 +26,8 @@ a:visited {
     justify-content: space-evenly;
     width: 100vw;
     background-color: orange;
-    border: 1px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .menu-link:hover {
