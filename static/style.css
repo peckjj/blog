@@ -47,6 +47,7 @@ a {
     width: 60vw;
     background-color: rgba(0, 0, 0, 0.4);
     border-bottom-right-radius: 30px;
+    margin-bottom: 1vh;
     padding: 10px;
 }
 
