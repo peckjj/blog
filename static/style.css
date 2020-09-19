@@ -42,6 +42,12 @@ a {
     color: black;
 }
 
+.card {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
 .card > h1 {
     padding-left: 1vw;
     border-left: 2vw solid transparent;
@@ -49,6 +55,10 @@ a {
 
 .card:hover > h1 {
     border-left: 2vw solid orange;
+}
+
+.card:hover {
+    background-color:  rgba(0, 0, 0, 0.8);
 }
 
 #links {
