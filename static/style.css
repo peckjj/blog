@@ -39,3 +39,13 @@ a {
 .menu-link {
     color: black;
 }
+
+.card > h1 {
+    padding-left: 1vw;
+    border-left: 2vw solid black;
+    width: auto;
+}
+
+.card:hover > h1 {
+    border-left: 2vw solid orange;
+}
