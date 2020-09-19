@@ -42,8 +42,7 @@ a {
 
 .card > h1 {
     padding-left: 1vw;
-    border-left: 2vw solid black;
-    width: auto;
+    border-left: 2vw solid transparent;
 }
 
 .card:hover > h1 {
