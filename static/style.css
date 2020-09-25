@@ -48,17 +48,6 @@ a {
 
 .menu-link:hover {
     color: white;
-    animation: menuGrow ease 0.5s;
-}
-
-@keyframes menuGrow {
-    0% {
-        position: fixed;
-        width: 100%;
-    }
-    100% {
-        width: 200%
-    }
 }
 
 .menu-link {
