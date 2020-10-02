@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Week 4
+        </title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    </head>
+    <body>
+        <img id="gravatar-image" src="https://www.gravatar.com/avatar/97734b77b83650ddbfc98cdca29ad879">
+        <div id="menu">
+            <h1>
+                <a class="menu-link" href="../index.html">Home</a>
+            </h1>
+            <h1>
+                <a class="menu-link" href="https://www.linkedin.com/in/joshua-peck-34a829155/">About Me</a>
+            </h1>
+            <h1>
+                <a class="menu-link" href="./projects.html">Projects</a>
+            </h1>
+            <h1>
+                <a class="menu-link" href="https://www.github.com/peckjj">GitHub</a>
+            </h1>
+            <h1>
+                <a class="menu-link" href="https://code.cs.jmu.edu/peckjj">GitLab</a>
+            </h1>
+        </div>
+        <main>
+            <div class="card">
+                <h1>Week 1 - Flex vs Grid display</h1>
+
+                <p>One of the most frustrating aspects of designing a webpage can be struggling with the positioning and sizing of the content.  When I first used flex display, I immediately saw the benefits. Now that I have been confronted with grid display as well, I am curious to see how these display systems may overlap, and in which situations they are most useful</p>
+
+                <p>Here is a typical ordering of elements, displayed in various ways:</p>
+                <div id="w4-frow">
+                    <h1>Flex</h1>
+                    <h1>Row</h1>
+                    <h1>Style</h1>
+                </div>
+
+                <div id="w4-fcol">
+                    <h1>Flex</h1>
+                    <h1>Col</h1>
+                    <h1>Style</h1>
+                </div>
+
+                <div id="w4-grow">
+                    <h1>Grid</h1>
+                    <h1>Row</h1>
+                    <h1>Style</h1>
+                </div>
+
+                <div id="w4-gcol">
+                    <h1>Grid</h1>
+                    <h1>Col</h1>
+                    <h1>Style</h1>
+                </div>
+
+                <p>
+                    The above show that very similar methods of display can be achieved using both methods. What the above examples do not show, however, was how simple and elegantly each type of display was achieved. With flex, applying row and column layout was extremely simple, and spacing the content in various ways was simple enough to include an animation, refresh to view again. Grid layout acheived the same layouts, but visibly handled the elements differently.
+                </p>
+
+                <p>
+                    Notice how each element is sized. In flex style, objects fill only the space they need. In grid, the object seems to fill the entire grid cell. While particular styling could eventually make either style look identical to the other, knowing what to expect as typical behavior from these display schemes can surely assist the design process.
+                </p>
+
+                <p>
+                    It seems as though flex display is more appropriate for organizing content that needs to flow, or have a more organic nature. While it wasn't used in the examples above, flex has the capability of wrapping content in its container as elements begin to overflow. This is useful for when the page is resized, and when it is unknown how large all the elements in the container will be. Grid layout seems appropriate for displaying content in a fixed way. Flex is grid-like, however Grid layout uses fixed columns and grids to organize the content. Grids can be useful for displaying content with particular alignment, there should be no use for wrapping in a grid, and flex display gives no control or guarantee of the number of rows or columns.
+                </p>
+            </div>
+
+            <div class="card">
+                <h1>
+                    Additonal Resources
+                </h1>
+
+                <p>
+                    A larger list of comparisons between flex and grid display can be found <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout">here</a>, and among them can be seen many more similarities behind each style, and how they can slightly differ. What I found most interesting was the idea given by the article of one-dimensional vs. two-dimensional layout. This may be a better way to contrast the two styles. Flex style appears two-dimensional, but in reality is only a dynamically fitted representation of a one-dimensional construct.
+                </p>
+
+                <p>
+                    Ultimately, there are several display options available. A list can be found <a href="https://www.w3schools.com/cssref/pr_class_display.asp">here</a>. Flex and grid displaya are only two solutions that cannot possibly be applied to every design problem. Perhaps I will explore the other options to see if any would improve my own content.
+                </p>
+            </div>
+        </main>
+    </body>
+</html>

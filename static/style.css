@@ -115,3 +115,108 @@ a {
 #gravatar-image:hover {
     opacity: .3;
 }
+
+#w4-frow {
+    width: 50%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    border: 1px solid white;
+    border-radius: 10px;
+    animation: swap-flex-justify 5s linear 1;
+}
+
+@keyframes swap-flex-justify {
+    0% {
+        justify-content: flex-start;
+    }
+    20% {
+        justify-content: space-between;
+    }
+    40% {
+        justify-content: space-around;
+    }
+    60% {
+        justify-content: space-evenly;
+    }
+    80% {
+        justify-content: flex-end;
+    }
+    100% {
+        justify-content: space-evenly;
+    }
+}
+
+#w4-frow > h1 {
+    padding: 10px;
+    background-color: orange;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#w4-fcol {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    width: 20%;
+    height: 400px;
+    animation: swap-flex-justify 5s linear 1;
+}
+
+#w4-fcol > h1 {
+    padding: 10px;
+    background-color: orange;
+    align-content: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#w4-grow {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#w4-grow > h1 {
+    padding: 10px;
+    background-color: orange;
+    align-content: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#w4-gcol {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    height: 400px;
+}
+
+#w4-gcol > h1 {
+    padding: 10px;
+    background-color: orange;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+}
