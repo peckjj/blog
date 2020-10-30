@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="../static/week6.css"/>
+</head>
+
+<body>
+    <img id="gravatar-image" src="https://www.gravatar.com/avatar/97734b77b83650ddbfc98cdca29ad879">
+    <div id="menu">
+        <h1>
+            <a class="menu-link" href="../index.html">Home</a>
+        </h1>
+        <h1>
+            <a class="menu-link" href="https://www.linkedin.com/in/joshua-peck-34a829155/">About Me</a>
+        </h1>
+        <h1>
+            <a class="menu-link" href="./projects.html">Projects</a>
+        </h1>
+        <h1>
+            <a class="menu-link" href="https://www.github.com/peckjj">GitHub</a>
+        </h1>
+        <h1>
+            <a class="menu-link" href="https://code.cs.jmu.edu/peckjj">GitLab</a>
+        </h1>
+    </div>
+    <main>
+        <div class="card">
+            <h1>Week 6 - In-Depth with Backgrounds</h1>
+            <p>
+                While continuing to imagine and implement improvements to the blog, scrolling through extended content
+                may be less distracting if the background were to remain still. Initial attempts to create this effect
+                were fruitless. Instead of giving the <span class="code">body</span> element a background, an <span
+                    class="code">img</span> was inserted as the first child, its <span class="code">position</span> was
+                set to <span class="code">absolute</span>, and it was sized to fill the screen. All this did was cause
+                the background not to repeat, the image still scrolled upward with the content.
+            </p>
+            <p>
+                After some <a href="https://www.w3schools.com/cssref/pr_background-attachment.asp">brief research</a>, the solution turned out to be rather underwhelming. CSS already contains
+                attributes that control this aspect of content display, and these two rules can be applied to the body
+                to achieve the desired effect:
+            <ul>
+                <li class="code">background-repeat: no-repeat;</li>
+                <li class="code">background-attachment: fixed;</li>
+            </ul>
+            </p>
+            <p>
+                As you can currently see, the background remains motionless as the user scrolls through the content. I believe the appearance to be an improvement. The investigation itself, however, was still lacking. It may perhaps be valuable to explore different tricks and applications of content backgrounds.
+            </p>
+            <p>
+                The following pictures are not <span class="code">img</span> elements, they are <span class="code">div</span> elements with custom backgrounds. An element can be given multiple backgrounds. The following are only two background images, the last image is set to repeat.
+            </p>
+            <div id="multi-repeat"><div></div></div>
+
+            <p>
+                Background dimensions can be explicitly defined, so that different patterns of repitition arise.
+            </p>
+            <div id="background-dims">
+                <div id="dims-1"></div>
+                <div id="dims-2"></div>
+                <div id="dims-3"></div>
+                <div id="dims-4"></div>
+            </div>
+
+            <p>
+                The background can even shrink or grow, although centering may need to occur in the positioning of the element itself.
+            </p>
+            <div id="background-growth">
+                <div id="growth-1"></div>
+                <div id="growth-2"></div>
+                <div id="growth-3"></div>
+                <div id="growth-4"></div>
+            </div>
+
+            <p>
+                Most of these background attributes would likely be most appropriate for what they were used for above, interesting background effects for content on the page, rather than for the page itself. These properties could even be used in clever ways to display content. Notice that it is possible for an element to display multiple images without containing a single child element.  An excellent guide to the full set of background properties can be found <a href="https://css-tricks.com/almanac/properties/b/background-origin/">here</a>.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

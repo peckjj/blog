@@ -1,0 +1,72 @@
+.card > div {
+    width: 800px;
+    height: 200px;
+}
+
+#multi-repeat {
+    background: url("https://picsum.photos/200/200"), url("https://picsum.photos/200/201");
+    background-repeat: no-repeat, repeat;
+}
+
+#background-dims {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#background-dims > div {
+    width: 200px;
+    height: 200px;
+}
+
+#dims-1 {
+    background: url("https://picsum.photos/200/200")
+}
+
+#dims-2 {
+    background: url("https://picsum.photos/200/200");
+    background-size: 75% 75%;
+}
+
+#dims-3 {
+    background: url("https://picsum.photos/200/200");
+    background-size: 50% 50%;
+}
+
+#dims-4 {
+    background: url("https://picsum.photos/200/200");
+    background-size: 25% 25%;
+}
+
+#background-growth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#background-growth > div {
+    width: 200px;
+    height: 200px;
+}
+
+#growth-1 {
+    background: url("https://picsum.photos/200/200");
+}
+
+#growth-2 {
+    background: url("https://picsum.photos/200/200");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+#growth-3 {
+    background: url("https://picsum.photos/200/200");
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#growth-4 {
+    background: url("https://picsum.photos/200/200");
+    background-repeat: no-repeat;
+    background-size: 25%;
+}

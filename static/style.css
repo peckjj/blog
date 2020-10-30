@@ -1,5 +1,7 @@
 body {
     background-image: url("circuits.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: row;
     justify-content: center;

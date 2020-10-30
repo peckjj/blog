@@ -1,0 +1,92 @@
+#good {
+    color: green;
+}
+
+#bad {
+    color: red;
+}
+
+#separate {
+    background-color: blue;
+    color: white;
+}
+
+#boundaries {
+    background-color: red;
+    color: black;
+}
+
+#r {
+    color: red;
+}
+
+#o {
+    color: orange;
+}
+
+#y {
+    color: yellow;
+}
+
+#g {
+    color: green;
+}
+
+#b {
+    color: blue;
+}
+
+#i {
+    color: indigo;
+}
+
+#v {
+    color: violet;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.swatch > div {
+    width: 100px;
+    height: 100px;
+}
+
+#mono-1 {
+    background-color: green;
+}
+
+#mono-2 {
+    background-color: rgb(92, 194, 92);
+}
+
+#mono-3 {
+    background-color: rgb(3, 56, 3);
+}
+
+#analog-1 {
+    background-color: orange;
+}
+
+#analog-2 {
+    background-color: orangered;
+}
+
+#analog-3 {
+    background-color: red;
+}
+
+#comp-1 {
+    background-color: purple;
+}
+
+#comp-2 {
+    background-color: rgb(162, 248, 2);
+}
+
+#comp-3 {
+    background-color: red;
+}
